@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skills</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+    nav{
+    background: rgb(27, 116, 249);
+    padding: 15px 30px;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 40px;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    padding: 0;
+    justify-content: flex-end;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #222;
+    transition: 0.3s;
+}
+.logo{
+font-size:20px;
+font-weight:700;
+color:rgb(11, 24, 45);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">👨‍💻 Portfolio web creater</div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<style>
+    .skills-section{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:50px;
+    background:#f5f5f5;
+}
+
+.skill-card{
+    background:white;
+    text-align:center;
+    padding:30px 20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-8px);
+}
+
+.skill-card img{
+    width:70px;
+    height:70px;
+    margin-bottom:15px;
+}
+
+.skill-card h3{
+    color:#1f3c88;
+    margin-bottom:10px;
+}
+
+.skill-card p{
+    color:#555;
+    line-height:1.6;
+}
+</style>
+<section class="skills-section">
+    <div class="skill-card">
+        <img src="css.jpeg" alt="HTML">
+        <h3>HTML</h3>
+        <p>Creating structured and responsive web pages using HTML5.</p>
+    </div>
+
+    <div class="skill-card">
+        <img src="css3.jpeg" alt="CSS">
+        <h3>CSS</h3>
+        <p>Designing attractive layouts and responsive user interfaces.</p>
+    </div>
+
+    <div class="skill-card">
+        <img src="java.jpeg" alt="JavaScript">
+        <h3>JavaScript</h3>
+        <p>Adding interactivity and dynamic features to websites.</p>
+    </div>
+
+    <div class="skill-card">
+        <img src="python.jpeg" alt="Python">
+        <h3>Python</h3>
+        <p>Developing programs, automation scripts, and applications.</p>
+    </div>
+
+    <div class="skill-card">
+        <img src="ui.jpeg" alt="UI/UX">
+        <h3>UI/UX Design</h3>
+        <p>Creating user-friendly and visually appealing designs.</p>
+    </div>
+
+    <div class="skill-card">
+        <img src="web - Copy.jpeg" alt="Web">
+        <h3>Web Development</h3>
+        <p>Building complete websites with modern technologies.</p>
+    </div>
+</section>
